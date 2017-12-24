@@ -1,0 +1,14 @@
+<configuration>
+	<property>
+		<name>hbase.zookeeper.quorum</name>
+		<value>auper01-01-10-01-1.prod.vroc.com.au,auper01-01-10-02-0.prod.vroc.com.au,auper01-01-10-02-1.prod.vroc.com.au</value>
+	</property>
+	<property>
+		<name>hbase.zookeeper.property.clientPort</name>
+		<value>2181</value>
+	</property>
+	<property>
+		<name>zookeeper.znode.parent</name>
+		<value>/hbase-unsecure</value>
+	</property>
+</configuration> 
